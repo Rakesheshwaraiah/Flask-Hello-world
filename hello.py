@@ -1,7 +1,6 @@
 from flask import Flask
 
-PORT=8000
-
+PORT=5000
 app = Flask(__name__)
 
 @app.route("/")
