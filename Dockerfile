@@ -4,4 +4,4 @@ COPY . /app
 WORKDIR /app
 RUN pip install -r need.txt
 ENTRYPOINT ["python"]
-CMD ["hello.py"]
+CMD ["python3", "hello.py"]
